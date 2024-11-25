@@ -10,7 +10,7 @@ import { useHotkeys } from "react-hotkeys-hook";
 import isWrappedWithClass from "../../pages/FlowPage/components/PageComponent/utils/is-wrapped-with-class";
 import { useShortcutsStore } from "../../stores/shortcuts";
 import { cn } from "../../utils/utils";
-import ShadTooltip from "../shadTooltipComponent";
+import ShadTooltip from "../common/shadTooltipComponent";
 import { Button } from "./button";
 import { Input } from "./input";
 import { Separator } from "./separator";

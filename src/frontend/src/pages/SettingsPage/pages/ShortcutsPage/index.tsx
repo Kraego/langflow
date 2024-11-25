@@ -1,8 +1,8 @@
 import { toNormalCase } from "@/utils/utils";
 import { ColDef } from "ag-grid-community";
 import { useEffect, useState } from "react";
-import ForwardedIconComponent from "../../../../components/genericIconComponent";
-import TableComponent from "../../../../components/tableComponent";
+import ForwardedIconComponent from "../../../../components/common/genericIconComponent";
+import TableComponent from "../../../../components/core/parameterRenderComponent/components/tableComponent";
 import { Button } from "../../../../components/ui/button";
 import { defaultShortcuts } from "../../../../constants/constants";
 import { useShortcutsStore } from "../../../../stores/shortcuts";
